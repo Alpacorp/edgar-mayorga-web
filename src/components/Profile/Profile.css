@@ -1,0 +1,25 @@
+.profile {
+  background-color: red;
+  padding-block: 50px;
+}
+
+.profile .profileMain {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+/* 
+.profile .profileMain .picture {
+  width: 100%;
+} */
+
+.profile .profileMain .picture img {
+  width: 300px;
+  /* width: 100%; */
+}
+
+.profile .description {
+  width: 50%;
+  color: #fff;
+  font-size: 22px;
+}
