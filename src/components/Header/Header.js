@@ -5,7 +5,7 @@ import "./Header.css";
 const Header = () => {
   const nav = document.querySelector("nav");
   window.addEventListener("scroll", () => {
-    if (window.scrollY > nav.offsetHeight + 80) {
+    if (window.scrollY > nav.offsetHeight + 8) {
       nav.classList.add("active");
     } else {
       nav.classList.remove("active");
@@ -17,15 +17,15 @@ const Header = () => {
         <div className="container">
           <figure className="logo">
             <a href="/">
-              <img src={logoEdgar} alt="edgar mayorga logo" srcset="" />
+              <img src={logoEdgar} alt="edgar mayorga logo" />
             </a>
           </figure>
           <ul>
             <li>
-              <a href="#perfil" id="blueText">
+              <a href="/#perfil" id="blueText">
                 Perfil
               </a>
-              <a href="#votar" id="redText">
+              <a href="/#comovotar" id="redText">
                 ¿Cómo Votar?
               </a>
               <a href="#propuestas" id="blueText">

@@ -1,0 +1,35 @@
+.howVote {
+  display: flex;
+  align-items: center;
+  background-color: beige;
+  padding-block: 50px;
+}
+
+.howVote .container .cardVote {
+  margin-block-start: -50px;
+}
+
+.howVoteBtn {
+  text-align: center;
+}
+
+.howVoteBtn button {
+  background-color: #fff;
+  font-size: 20px;
+  padding: 10px 30px;
+  border: 1px solid blue;
+  color: blue;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+.backBtn {
+  border: 1px red solid;
+  width: 150px;
+  margin: auto;
+}
+
+.howVoteBtn button:hover {
+  background-color: blue;
+  color: #fff;
+}
