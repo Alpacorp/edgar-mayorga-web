@@ -1,9 +1,10 @@
 .profile {
-  background-color: red;
-  padding-block: 50px;
+  font-size: 22px;
 }
 
 .profile .profileMain {
+  padding-block: 50px;
+  background-color: red;
   display: flex;
   align-items: center;
   justify-content: space-around;
@@ -21,5 +22,37 @@
 .profile .description {
   width: 50%;
   color: #fff;
-  font-size: 22px;
+}
+
+.list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  color: #04549c;
+  width: 50%;
+  margin: 0 auto;
+}
+
+.list ul {
+  list-style: none;
+}
+
+.list li::before {
+  content: "\2022";
+  padding-right: 8px;
+  color: red;
+}
+
+.list .work-description {
+  display: flex;
+  width: 900px;
+}
+
+.work-description figure {
+  width: 10%;
+}
+
+.work-description p {
+  width: 90%;
 }

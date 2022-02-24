@@ -28,10 +28,10 @@ const Header = () => {
               <a href="/#comovotar" id="redText">
                 ¿Cómo Votar?
               </a>
-              <a href="#propuestas" id="blueText">
+              <a href="/#propuestas" id="blueText">
                 Propuestas
               </a>
-              <a href="#consulta" id="blueText">
+              <a href="/#consulta" id="blueText">
                 Consulta de Votación
               </a>
             </li>
