@@ -1,0 +1,26 @@
+.follow {
+  background-color: #04549c;
+  clip-path: polygon(0 12%, 100% 0, 100% 89%, 0% 100%);
+}
+
+.follow .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.follow .container .title {
+  padding: 50px;
+}
+
+.follow .container .title img {
+  width: 300px;
+}
+
+.follow .container .socialMedia {
+  display: flex;
+}
+
+.follow .container .socialMedia figure {
+  width: 100px;
+}
