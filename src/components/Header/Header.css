@@ -34,7 +34,7 @@
 }
 
 .nav a {
-  color: #fff;
+  color: #04549c;
   font-weight: bold;
   text-decoration: none;
   padding: 7px 15px;
@@ -45,7 +45,7 @@
   color: #e31016;
 }
 
-#blueText {
+.blueText {
   color: #04549c;
 }
 

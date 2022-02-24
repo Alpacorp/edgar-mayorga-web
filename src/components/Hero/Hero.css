@@ -1,29 +1,21 @@
 .hero {
   background-image: url("./assets/h2-banner-edgar-mayorga.jpg");
+  clip-path: polygon(0 12%, 100% 0, 100% 89%, 0% 110%);
   height: 100vh;
+  width: auto;
+  padding-block-end: 100px;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
   color: #04549c;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  /* display: flex; */
+  /* justify-content: center; */
+  /* align-items: center; */
   text-align: center;
   position: relative;
   z-index: -2;
   text-transform: uppercase;
 }
-
-/* .hero::before {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background-color: rgba(0, 0, 0, 0.5);
-  z-index: -1;
-} */
 
 .hero .container {
   position: absolute;
