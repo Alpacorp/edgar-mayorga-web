@@ -1,4 +1,40 @@
-.proposal figure {
-  width: 300px;
+.proposal {
+  color: #04549c;
+  font-size: 20px;
+}
+
+.proposal .title {
   background-color: #04549c;
+  padding: 50px;
+}
+
+.proposal .title figure img {
+  width: 300px;
+  margin: auto 0;
+}
+
+.proposals-text .container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  /* align-items: center; */
+  padding: 20px;
+}
+
+.proposals-text .container .article {
+  margin: 10px;
+}
+
+.proposals-text .container .article figure {
+  margin: 0;
+}
+
+.proposals-text .container .article figure img {
+  text-align: left;
+  width: 300px;
+}
+
+.proposals-text .container .article p,
+h3 {
+  max-width: 300px;
 }
