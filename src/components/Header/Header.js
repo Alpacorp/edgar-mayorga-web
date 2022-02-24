@@ -22,18 +22,13 @@ const Header = () => {
           </figure>
           <ul>
             <li>
-              <a href="/#perfil" id="blueText">
-                Perfil
-              </a>
-              <a href="/#comovotar" id="redText">
+              <a href="/#perfil">Perfil</a>
+              <a href="/#votar" id="redText">
                 ¿Cómo Votar?
               </a>
-              <a href="/#propuestas" id="blueText">
-                Propuestas
-              </a>
-              <a href="/#consulta" id="blueText">
-                Consulta de Votación
-              </a>
+              <a href="/#propuestas">Propuestas</a>
+              <a href="/#consulta">Consulta de Votación</a>
+              <a href="/#social">Redes Sociales</a>
             </li>
           </ul>
         </div>

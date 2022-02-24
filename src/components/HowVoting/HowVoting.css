@@ -1,19 +1,25 @@
 .howVote {
   display: flex;
   align-items: center;
-  background-color: beige;
-  padding-block: 50px;
+  background-color: #f5f5dc;
+  clip-path: polygon(0 12%, 100% 0, 100% 89%, 0% 100%);
+  padding-block: 100px;
 }
 
 .howVote .container .cardVote {
   margin-block-start: -50px;
+  transition: all 0.3s;
+}
+
+.howVote .container .cardVote:hover {
+  transform: scale(1.1);
 }
 
 .howVoteBtn {
   text-align: center;
 }
 
-.howVoteBtn button {
+.howVoteBtn a {
   background-color: #fff;
   font-size: 20px;
   padding: 10px 30px;
@@ -21,6 +27,8 @@
   color: blue;
   cursor: pointer;
   transition: all 0.3s ease-in-out;
+  appearance: button;
+  text-decoration: none;
 }
 
 .backBtn {
@@ -29,7 +37,7 @@
   margin: auto;
 }
 
-.howVoteBtn button:hover {
+.howVoteBtn a:hover {
   background-color: blue;
   color: #fff;
 }

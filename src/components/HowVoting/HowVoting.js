@@ -4,7 +4,7 @@ import "./HowVoting.css";
 
 const HowVoting = () => {
   return (
-    <section className="howVote">
+    <section className="howVote" id="votar">
       <div className="container">
         <div className="howVoteImg">
           <img src={vote} alt="texto votar" />
@@ -16,7 +16,12 @@ const HowVoting = () => {
         </div>
         <div className="howVoteBtn">
           <div className="backBtn">
-            <button>Ver Video</button>
+            <a
+              href="https://www.facebook.com/SoyMayorguista/videos/3247092358881260"
+              target="blank"
+            >
+              Ver Video
+            </a>
           </div>
         </div>
       </div>

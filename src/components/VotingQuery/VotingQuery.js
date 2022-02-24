@@ -2,9 +2,9 @@ import React from "react";
 
 const VotingQuery = () => {
   return (
-    <div className="votingQuery" id="comovotar">
+    <div className="votingQuery" id="consulta">
       <iframe
-        src="https://infovotantescongreso.registraduria.gov.co/Home"
+        src="https://eleccioncolombia.registraduria.gov.co/"
         frameBorder="0"
         title="voting place"
         width="100%"

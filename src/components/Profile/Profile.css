@@ -1,67 +1,26 @@
 .profile {
   font-size: 22px;
+  padding-block: 70px;
+  background-color: red;
+  clip-path: polygon(0 12%, 100% 0, 100% 89%, 0% 100%);
 }
 
 .profile .profileMain {
-  padding-block: 50px;
-  background-color: red;
   display: flex;
   align-items: center;
   justify-content: space-around;
 }
-/* 
-.profile .profileMain .picture {
-  width: 100%;
-} */
 
 .profile .profileMain .picture img {
   width: 300px;
-  /* width: 100%; */
+  transition: all 0.3s;
+}
+
+.profile .profileMain .picture img:hover {
+  transform: scale(1.05);
 }
 
 .profile .description {
   width: 50%;
   color: #fff;
-}
-
-.jobs {
-  width: 100%;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  background-color: #f2f2f2;
-}
-
-.list {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
-  color: #04549c;
-  width: 50%;
-  margin: 20px auto;
-}
-
-.list ul {
-  list-style: none;
-}
-
-.list li::before {
-  content: "\2022";
-  padding-right: 8px;
-  color: red;
-}
-
-.list .work-description {
-  display: flex;
-  width: 900px;
-}
-
-.work-description figure {
-  width: 10%;
-}
-
-.work-description p {
-  width: 90%;
 }

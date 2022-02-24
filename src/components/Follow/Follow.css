@@ -1,6 +1,7 @@
 .follow {
   background-color: #04549c;
-  clip-path: polygon(0 12%, 100% 0, 100% 89%, 0% 100%);
+  clip-path: polygon(0 6%, 100% 0, 100% 100%, 0% 100%);
+  padding-block: 50px;
 }
 
 .follow .container {
@@ -23,4 +24,28 @@
 
 .follow .container .socialMedia figure {
   width: 100px;
+  transition: all 0.3s;
+}
+
+.follow .container .socialMedia figure:hover {
+  transform: scale(1.1);
+}
+
+.socialEmbebed {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.vote-card {
+  text-align: center;
+  margin-block: 50px;
+}
+
+.vote-card figure {
+  margin: 0;
+  transition: all 0.3s;
+}
+
+.vote-card figure:hover {
+  transform: scale(1.05);
 }
