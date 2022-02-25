@@ -12,14 +12,14 @@ const Follow = () => {
           </figure>
         </div>
         <div className="socialMedia">
-          <a href="https://www.facebook.com/SoyMayorguista" target="blank">
-            <figure>
-              <img src={facebook} alt="logo Facebook" />
-            </figure>
-          </a>
           <a href="https://twitter.com/SoyMayorguista" target="blank">
             <figure>
               <img src={twitter} alt="logo Instagram" />
+            </figure>
+          </a>
+          <a href="https://www.facebook.com/SoyMayorguista" target="blank">
+            <figure>
+              <img src={facebook} alt="logo Facebook" />
             </figure>
           </a>
         </div>
@@ -28,12 +28,13 @@ const Follow = () => {
         <TwitterTimelineEmbed
           sourceType="profile"
           screenName="SoyMayorguista"
-          options={{ height: 500, width: 300 }}
+          options={{ height: 500, width: 400 }}
         />
         <iframe
           src="https://www.powr.io/facebook-feed/i/31629770#page"
           frameBorder="0"
           title="facebook social media"
+          style={{ width: "400px" }}
         ></iframe>
       </div>
       <div className="vote-card">

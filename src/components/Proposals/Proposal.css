@@ -12,6 +12,7 @@
 .proposal .title figure img {
   width: 300px;
   margin: auto 0;
+  padding-inline-start: 50px;
 }
 
 .proposals-text .container {
@@ -42,4 +43,16 @@
 .proposals-text .container .article p,
 h3 {
   max-width: 300px;
+}
+
+@media screen and (max-width: 670px) {
+  .proposal {
+    clip-path: none;
+  }
+  .proposal .title {
+    padding-block-start: 20px;
+  }
+  .proposal .title figure img {
+    padding: 0;
+  }
 }
