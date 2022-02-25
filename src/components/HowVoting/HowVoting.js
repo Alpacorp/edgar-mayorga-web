@@ -7,7 +7,9 @@ const HowVoting = () => {
     <section className="howVote" id="votar">
       <div className="container">
         <div className="howVoteImg">
-          <img src={vote} alt="texto votar" />
+          <figure>
+            <img src={vote} alt="texto cómo votar" />
+          </figure>
         </div>
         <div>
           <figure className="cardVote">

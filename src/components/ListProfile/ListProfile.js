@@ -6,7 +6,7 @@ import "./ListProfile.css";
 const Listprofile = () => {
   return (
     <section className="list">
-      <div>
+      <div className="profesional">
         <p>
           En su <strong>trayectoria profesional</strong> se destacan los
           siguientes cargos:
@@ -36,7 +36,7 @@ const Listprofile = () => {
             destacándose como el
             <strong> dirigente más votado de este partido</strong> y el segundo
             de la duma departamental
-            <strong style={{ color: "green" }}> con 41.493 votos.</strong>
+            <strong style={{ color: "#008000" }}> con 41.493 votos.</strong>
           </p>
         </div>
         <hr
@@ -44,7 +44,7 @@ const Listprofile = () => {
             height: "2px",
             width: "20%",
             textAlign: "left",
-            backgroundColor: "red",
+            backgroundColor: "#E31016",
           }}
         />
         <div className="work-description">
@@ -57,7 +57,7 @@ const Listprofile = () => {
               independencia, gestión y liderazgo en el departamento.
             </strong>{" "}
             Recorre permanentemente los{" "}
-            <strong style={{ color: "green" }}>116 municipios,</strong>{" "}
+            <strong style={{ color: "#008000" }}>116 municipios,</strong>{" "}
             realizando gestión en la mayoría de ellos, conocedor del
             departamento en sus virtudes, y sus dificultades;{" "}
             <strong>comprometido con los temas sociales,</strong> educativos,

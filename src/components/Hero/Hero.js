@@ -3,7 +3,7 @@ import "./Hero.css";
 const Hero = () => {
   return (
     <div className="hero">
-      <div className="container">
+      <div className="container animate__animated animate__bounceInUp animate__delay-1">
         <h1>
           <span className="alternate">Edgar</span> Mayorga
         </h1>

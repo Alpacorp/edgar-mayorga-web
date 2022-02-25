@@ -8,6 +8,7 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
+  flex-wrap: wrap;
 }
 
 .follow .container .title {
@@ -20,6 +21,7 @@
 
 .follow .container .socialMedia {
   display: flex;
+  flex-wrap: wrap;
 }
 
 .follow .container .socialMedia figure {
@@ -33,6 +35,7 @@
 
 .socialEmbebed {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-evenly;
 }
 
@@ -48,4 +51,16 @@
 
 .vote-card figure:hover {
   transform: scale(1.05);
+}
+
+@media screen and (max-width: 670px) {
+  .follow {
+    clip-path: none;
+  }
+  .follow .container .title {
+    padding: 0;
+  }
+  .follow .container .title img {
+    width: 200px;
+  }
 }
