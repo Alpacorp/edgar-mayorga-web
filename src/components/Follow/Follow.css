@@ -65,6 +65,11 @@
   .follow .container .title img {
     width: 200px;
   }
+  .vote-card figure {
+    max-width: 300px;
+    margin: 0 auto;
+    /* padding: 0 20px; */
+  }
   .vote-card figure img {
     width: 100%;
   }
