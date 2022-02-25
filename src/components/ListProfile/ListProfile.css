@@ -71,4 +71,7 @@
   .work-description figure {
     margin: 0 auto;
   }
+  .list .profesional ul {
+    padding: 0;
+  }
 }
