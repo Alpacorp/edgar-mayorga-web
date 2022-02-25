@@ -56,3 +56,9 @@ h3 {
     padding: 0;
   }
 }
+
+@media screen and (max-width: 350px) {
+  .proposal .title figure img {
+    width: 100%;
+  }
+}

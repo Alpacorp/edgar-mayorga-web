@@ -8,9 +8,6 @@
   background-size: cover;
   background-position: center;
   color: #04549c;
-  /* display: flex; */
-  /* justify-content: center; */
-  /* align-items: center; */
   text-align: center;
   position: relative;
   z-index: -2;
@@ -25,13 +22,11 @@
 
 .hero h1 {
   font-size: 50px;
-  /* margin: -20px 0 -20px; */
   max-width: 1000px;
 }
 
 .hero h2 {
   font-size: 30px;
-  /* letter-spacing: 1px; */
   max-width: 500px;
 }
 
@@ -47,6 +42,13 @@
   color: #04549c;
 }
 
+@media screen and (min-width: 1300px) {
+  .hero .container {
+    top: 250px;
+    right: 420px;
+  }
+}
+
 @media screen and (max-width: 1000px) {
   .hero {
     padding: 0;
@@ -58,7 +60,6 @@
   }
 
   .hero h1 {
-    /* display: none; */
     font-size: 30px;
   }
 
@@ -79,11 +80,20 @@
   }
 
   .hero h1 {
-    /* display: none; */
     font-size: 20px;
   }
 
   .hero h2 {
     font-size: 10px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .hero {
+    background-image: url("./assets/banner-cel-edgar-mayorga.jpg");
+    max-height: 550px;
+  }
+  .hero .container {
+    display: none;
   }
 }

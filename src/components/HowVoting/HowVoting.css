@@ -32,12 +32,14 @@
   transition: all 0.3s ease-in-out;
   appearance: button;
   text-decoration: none;
+  border-radius: 0;
 }
 
 .backBtn {
   border: 1px #e31016 solid;
   width: 150px;
   margin: auto;
+  border-radius: 0;
 }
 
 .howVoteBtn a:hover {
@@ -67,5 +69,11 @@
   }
   figure.cardVote {
     padding: 10px;
+  }
+}
+
+@media screen and (max-width: 350px) {
+  .howVoteImg figure img {
+    width: 100%;
   }
 }
