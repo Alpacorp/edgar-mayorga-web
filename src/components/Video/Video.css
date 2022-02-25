@@ -5,9 +5,16 @@
   padding: 50px 0;
 }
 
-.backVideo figure img {
+.backVideo iframe {
   text-align: center;
   max-width: 700px;
   width: 100%;
+  height: 360px;
   box-shadow: 0 0 20px gray;
+}
+
+@media screen and (max-width: 630px) {
+  .backVideo iframe {
+    height: auto;
+  }
 }
