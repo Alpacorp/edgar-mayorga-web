@@ -62,5 +62,10 @@
   .howVoteImg {
     text-align: center;
     margin-block-end: 50px;
+    max-width: 300px;
+    width: 100%;
+  }
+  figure.cardVote {
+    padding: 10px;
   }
 }
