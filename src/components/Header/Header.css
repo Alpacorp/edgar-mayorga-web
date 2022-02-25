@@ -94,6 +94,9 @@
     display: block;
     text-align: center;
   }
+  .nav .logo {
+    display: none;
+  }
 }
 
 @media screen and (max-width: 750px) {
@@ -105,5 +108,8 @@
 @media screen and (max-width: 680px) {
   .nav ul {
     display: none;
+  }
+  .nav .logo {
+    display: block;
   }
 }

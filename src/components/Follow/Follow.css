@@ -59,18 +59,31 @@
   .follow {
     clip-path: none;
   }
+
   .follow .container .title {
     padding: 0;
   }
+
   .follow .container .title img {
     width: 200px;
   }
+
   .vote-card figure {
     max-width: 300px;
     margin: 0 auto;
     /* padding: 0 20px; */
   }
+
   .vote-card figure img {
     width: 100%;
+  }
+
+  .follow .container .socialMedia figure {
+    width: 60px;
+    margin: 10px;
+  }
+
+  .socialMedia figure img {
+    margin: 0 10px;
   }
 }

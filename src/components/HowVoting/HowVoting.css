@@ -1,7 +1,7 @@
 .howVote {
   display: flex;
   align-items: center;
-  background-color: #f5f5dc;
+  background-color: #f2f2f2;
   clip-path: polygon(0 12%, 100% 0, 100% 89%, 0% 100%);
   padding-block: 100px;
 }
@@ -54,6 +54,29 @@
 }
 
 @media screen and (max-width: 850px) {
+  .howVoteBtn {
+    text-align: center;
+  }
+
+  .howVoteBtn a {
+    background-color: #fff;
+    font-size: 20px;
+    padding: 10px 30px;
+    border: 1px solid #04549c;
+    color: #04549c;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    appearance: button;
+    text-decoration: none;
+    border-radius: 0;
+  }
+
+  .backBtn {
+    border: 1px #e31016 solid;
+    width: 150px;
+    margin: auto;
+    border-radius: 0;
+  }
 }
 
 @media screen and (max-width: 670px) {
