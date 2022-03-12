@@ -1,16 +1,16 @@
-import React from "react";
+import infoVotantes from "./assets/infovotantes.png";
 
 const VotingQuery = () => {
   return (
     <div className="votingQuery" id="consulta">
-      <iframe
-        src="https://eleccioncolombia.registraduria.gov.co/"
-        frameBorder="0"
-        title="voting place"
-        width="100%"
-        height="900px"
-        allow="fullscreen"
-      ></iframe>
+      <a href="https://eleccioncolombia.registraduria.gov.co/" target="blank">
+        <img
+          className="infovotantes"
+          style={{ width: "100%" }}
+          src={infoVotantes}
+          alt="infovotantes"
+        />
+      </a>
     </div>
   );
 };

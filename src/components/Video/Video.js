@@ -12,10 +12,9 @@ const Video = () => {
           src="https://www.facebook.com/plugins/video.php?height=316&href=https%3A%2F%2Fwww.facebook.com%2FSoyMayorguista%2Fvideos%2F2781252622178229%2F&show_text=false&width=560&t=0"
           style={{ border: "none", overflow: "hidden" }}
           scrolling="no"
-          frameborder="0"
-          allowfullscreen="true"
+          frameBorder="0"
+          allowFullScreen={true}
           allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"
-          allowFullScreen="true"
           title="edgar mayorga campaña"
         ></iframe>
       </div>
